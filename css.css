@@ -1,39 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-*{
+* {
     font-family: "Open Sans", sans-serif;
     margin: 0px;
 }
-.navBar{
+
+.navBar {
     padding: 50px 200px;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
-.mary{
+
+.mary {
     color: #181818;
     font-weight: 800;
     font-size: 45px;
 }
-span{
+
+span {
     color: #FD6E0A;
 }
-ul{
+
+ul {
     display: flex;
     align-items: baseline;
 }
-ul li{
+
+ul li {
     list-style: none;
     margin-right: 50px;
-    
+
 }
-li a{
+
+li a {
     font-size: 20px;
     text-decoration: none;
     color: #474747;
 }
 
-.primaryBtn{
+.primaryBtn {
     border: none;
     color: white;
     background-color: #FD6E0A;
@@ -42,35 +48,41 @@ li a{
     padding: 18px 35px;
     border-radius: 5px;
 }
-.baba{
+
+.baba {
     display: flex;
     justify-content: space-between;
     padding-left: 200px;
     align-items: center;
 }
-header{
+
+header {
     background-color: #FFF8F3;
-    background-image: url('images/header_bg.png'),url('images/developer.png');
+    background-image: url('images/header_bg.png'), url('images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right, left ;
-    
+    background-position: bottom right, left;
+
 }
-.hi{
+
+.hi {
     font-weight: 600;
     font-size: 45px;
     color: #474747;
 }
-.hardy{
+
+.hardy {
     font-weight: 700;
     font-size: 85px;
     color: #181818;
 }
-.dec{
+
+.dec {
     font-size: 18px;
     color: #757575;
     margin: 20px 0px 30px 0px;
 }
-.btn-outline{
+
+.btn-outline {
     border: 1px solid #FD6E0A;
     color: #FD6E0A;
     background-color: rgba(255, 255, 255, 0.066);
@@ -81,7 +93,7 @@ header{
     border-radius: 5px;
 }
 
-.about{
+.about {
     /* width: 1140px;
     height: 550px; */
     background-color: #FFF8F3;
@@ -92,138 +104,204 @@ header{
     text-align: center;
     padding: 130px 0px;
 }
-.aboutMe{
-    
+
+.aboutMe {
+
     margin: 0px 150px;
     /* border: 1px solid black; */
 }
-.fatherOfFourSon{
+
+.fatherOfFourSon {
     display: flex;
     justify-content: space-around;
 }
-.aboutMeHeading{
+
+.aboutMeHeading {
     font-weight: 700;
     font-size: 35px;
     /* color: ; */
 }
-.aboutMePera{
+
+.aboutMePera {
     font-size: 18px;
     margin: 30px 0px;
-    color: #757575 ;
+    color: #757575;
 }
-.name{
+
+.name {
     font-size: 20px;
     color: #757575;
 }
-.bolder{
+
+.bolder {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
 }
-.whatIDo{
+
+.whatIDo {
     margin: 0px 200px 130px;
     text-align: center;
 
 }
-.whatIDoTitle{
+
+.whatIDoTitle {
     font-weight: 700;
     font-size: 35px;
 }
-.whatIDoPara{
+
+.whatIDoPara {
     padding: 30px 115px 50px;
     font-size: 18px;
     color: #757575;
 }
-.whatIDoContainer{
+
+.whatIDoContainer {
     display: flex;
     text-align: left;
 }
-.whatIDoContainerSon{
+
+.whatIDoContainerSon {
     /* border: 2px solid #FD6E0A; */
     margin: 24px;
     padding: 30px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.03), 0 6px 20px 0 rgba(0, 0, 0, 0.03);
     border-radius: 5px;
 }
-.cardTitle{
+
+.cardTitle {
     margin: 30px 0px 20px;
 }
-.summeryTitle{
+
+.summeryTitle {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
     margin-bottom: 100px;
 }
-.commonForEduExp{
+
+.commonForEduExp {
     display: flex;
     margin: 0px 200px;
 }
-.edu{
+
+.edu {
     margin-right: 70px;
 }
-.summeryExpHeading{
+
+.summeryExpHeading {
     font-weight: 700;
     font-size: 30px;
     color: #474747;
     margin-bottom: 30px;
 }
-.commoneTitle{
+
+.commoneTitle {
     font-weight: 700;
     font-size: 25px;
     color: #474747;
 }
-.commonePara{
+
+.commonePara {
     font-weight: 600;
     font-size: 20px;
     color: #757575;
     margin: 10px 0px 20px;
 }
-.commoneParaSm{
+
+.commoneParaSm {
     font-size: 16px;
     color: #757575;
 }
-hr{
+
+hr {
     margin: 30px 0px;
 }
-.DownloadBtnDiv{
+
+.DownloadBtnDiv {
     text-align: center;
     margin: 50px 0px 100px;
 }
-.footer{
+
+.footer {
     background-color: #FFF8F3;
     padding: 130px 200px;
     display: flex;
     justify-content: space-between;
 }
-.footerson1{
+
+.footerson1 {
     width: 50%;
     margin-right: 100px;
 }
-.footerson2{
+
+.footerson2 {
     width: 50%;
 }
-.footerTitle{
+
+.footerTitle {
     font-weight: 700;
     font-size: 35px;
 }
-.footerPara{
+
+.footerPara {
     font-size: 16px;
     color: #474747;
     margin: 20px 0px 30px;
 }
-.twitter{
+
+.twitter {
     margin: 0px 25px 0px;
 }
-.textInput{
+
+.textInput {
     margin: 25px 0px;
     border: none;
     padding: 18px 300px 18px 30px;
     border-radius: 5px;
-    
+
 }
-.textArea{
+
+.textArea {
     margin: 25px 0px;
     border: none;
-    padding: 18px 300px 130px 30px;  
+    padding: 18px 300px 130px 30px;
     border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .commonForEduExp {
+        flex-direction: column;
+        margin: 0px 30px;
+    }
+
+    .whatIDo {
+        margin: 0px;
+        margin-bottom: 30px;
+    }
+
+    .whatIDoPara {
+        padding: 30px 20px;
+    }
+
+    .whatIDoContainer {
+        flex-direction: column;
+    }
+    .about{
+        margin: 0px;
+        padding: 0px;
+    }
+    .fatherOfFourSon{
+        flex-direction: column;
+    }
+    .aboutMe{
+        margin: 0px 20px;
+
+
+    }
 }
